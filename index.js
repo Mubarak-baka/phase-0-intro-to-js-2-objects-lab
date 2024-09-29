@@ -9,7 +9,7 @@ function updateEmployeeWithKeyAndValue(employee,key,value){
         [key]:value
     }
 }
-let updatedEmployee = updateEmployeeWithKeyAndValue(employee,'streetAddress','Roysambu')
+
 
 function destructivelyUpdateEmployeeWithKeyAndValue(employee,key,value){
         employee[key] =value;
